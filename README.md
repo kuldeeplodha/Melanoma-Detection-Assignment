@@ -26,10 +26,10 @@ The data set contains the following diseases:
 - Vascular lesion
 
 ### Business Goal
-you required to build a multiclass classification model using a custom convolutional neural network in TensorFlow.
+you are required to build a multiclass classification model using a custom convolutional neural network in TensorFlow.
 
 ### Business Risk
-- Predicting a incorrect class of skin cancer.
+- Predicting an incorrect class of skin cancer.
 
 
 ## Project Pipeline
@@ -55,14 +55,14 @@ Model Building & training on the rectified class imbalance data :
 - Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1).
 Choose an appropriate optimiser and loss function for model training
 Train the model for ~30 epochs
-Write your findings after the model fit, see if the issues are resolved or not?
+Write your findings after the model fit, and see if the issues are resolved or not.
 
 
 ## Observations
-- As the training accuracy increases linearly over time, where as the validation accuracy increases in training process.
+- As the training accuracy increases linearly over time, whereas the validation accuracy increases in the training process.
 - As the training loss decreases with epochs the validation loss also decreases.
-- The plots show that training accuracy 92% and validation accuracy around 83% .
-- The difference in accuracy between training and validation accuracy is very less
+- The plots show that training accuracy is 92% and validation accuracy is around 83%.
+- The difference in accuracy between training and validation accuracy is much less
 - Class rebalancing not only reduced overfitting it also improved the accuracy from 48% to 81%.
 
 ## Technologies Used
@@ -76,7 +76,7 @@ Write your findings after the model fit, see if the issues are resolved or not?
 - tensorflow - 2.11.0
 
 ## Acknowledgements
-This project was a assignment provided by the Upgrad.
+This project was an assignment provided by the Upgrad.
 Reference taken for this assignment are:-
 - https://www.geeksforgeeks.org/
 - https://seaborn.pydata.org/
@@ -87,4 +87,4 @@ Reference taken for this assignment are:-
 
 
 ## Contact
-Created by [@kuldeeplodha] - feel free to contact me!
+Created by [@ kuldeeplodha] - feel free to contact me!
